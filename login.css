@@ -1,0 +1,70 @@
+* {
+    margin:0;
+}
+/* error with whole bkgd color and form bkgd color*/
+.container {
+    margin:50px auto;
+    width:810px;
+    background-color:rgb(70, 70, 70);
+}
+
+.login{
+    position: relative;
+  margin-top: 30%;
+  padding: 20px 20px 20px;
+  width: 810px;
+  place-content: center;
+  text-align:center;
+  
+}
+
+.login h1{
+    color:white;
+}
+
+.login p, label{
+    color:rgb(220,220,220);
+    font-family:ggsans,sans-serif;
+    font-size:13px;
+    font-weight:bolder;
+}
+
+input[type=text], input[type=password]{
+    background-color:rgb(50,50,50);
+    border:none;
+}
+
+#email-phone, #pwd{
+    text-align:left;
+    margin-left:32%;
+}
+
+
+.submit{
+        background-color:rgb(120,120,240);
+        color:white;
+        font-weight:bold;
+        width:35%;
+        padding:10px 50px;
+        font-size:15px;
+        border:none;
+        border-radius:5px;
+        margin-right:20px;
+        
+    }
+
+.login-help a , .register a{
+    text-decoration: none;
+}
+
+.login-help{
+    text-align:left;
+    font-weight:lighter;
+    margin-left:32%
+}
+
+.register{
+    font-size: 13px;
+    text-align:left;
+    margin-left:32%;
+}

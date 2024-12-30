@@ -1,0 +1,132 @@
+nav{
+    background-color:rgb(45,45,45);
+}
+
+div.container{
+    padding:10px 10px;
+    place-items:center;
+    margin:0 auto;
+}
+
+div.textsec1{
+    padding:10px 10px;
+    place-items:center;
+    margin:0 auto;
+}
+
+.sec1 {
+    text-align: center;
+    color:white;
+    background-color:rgb(45,45,45);
+}
+
+.sec1 h1{
+    margin:0px;
+    padding-top:70px;
+    padding-bottom: 25px;
+    font-size:60px;
+    font-family:"Gill Sans", sans-serif;
+    font-weight:900;
+    font-stretch:ultra-expanded;
+}
+
+
+.container img{
+    float:right;
+}
+
+.sec1 p{
+    font-size:19px;
+    font-family:sans-serif;
+    font-weight:100;
+    padding-bottom: 20px;
+    line-height:30px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: row;
+  }
+.flex-column p{
+    margin-top:10px;
+
+}
+
+.buttons1{
+    padding-bottom: 20px;
+}
+
+#downloadFW{
+    
+    background-color:rgb(78, 78, 231);
+    color:white;
+    padding:15px 20px;
+    font-size:17px;
+    border: rgb(78,78,231) 1px solid;
+    border-radius:50px;
+    margin-right:20px;
+    margin-left: 30px;
+    align-items: left;
+}
+
+#downloadFW:hover {
+    box-shadow: 0 1px 10px 0px black;
+}
+
+
+.sec2{
+    background-color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    overflow:hidden;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .item{
+    margin: 20px;
+
+    position:relative;
+    text-align:center;
+  }
+  .img-content {
+    margin-top:60px;
+  }
+  .item img{
+    width:750px;
+    height:400px;
+    display:inline-block;
+  }
+
+  .item p{
+    margin: 20px;
+    font-size:30px;
+    font-weight: 700;
+  }
+  .item h2{
+    font-size:35px;
+  }
+  .item p#text{
+    font-size:20px;
+    font-weight: 100;
+  }
+
+
+  
+  #download{
+    background-color:black;
+    color:white;
+    padding:15px 20px;
+    font-size:17px;
+    border: beige 1px solid;
+    border-radius:50px;
+    margin-right:20px;
+    
+}
